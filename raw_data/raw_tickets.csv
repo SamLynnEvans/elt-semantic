@@ -1,0 +1,21 @@
+ticket_id,linked_doc_id,priority,department,resolution_summary
+TKT-4521,1001,High,Legal,Clarified that only PII is subject to the 36-month limit; non-PII is exempt per Section 3.1.
+TKT-4522,1002,Medium,Finance,User queried the $150 hotel limit. Confirmed policy applies to all domestic travel.
+TKT-4523,1003,Low,HR,Reminded manager of the Feb 28th deadline for final submission.
+TKT-4524,1001,High,Compliance,Requested audit proof for a set of inactive accounts per Section 3.1 weekly mandate.
+TKT-4525,1002,High,Sales,Disputed an Economy class booking for a long-haul flight. Policy confirmed no exceptions.
+TKT-4526,1004,Low,IT,Approved $500 stipend after confirming employee passed 90-day mark.
+TKT-4527,1005,Critical,DevOps,Rotation failure on the AWS production key. Locked account and initiated audit.
+TKT-4528,1006,Medium,Engineering,"Logged bug as MAJOR—core feature affected, but a manual workaround exists."
+TKT-4529,1007,Low,HR,Employee asked about maximum PTO rollover. Confirmed 5-day limit.
+TKT-4530,1008,Medium,Procurement,Vendor requires W-9. Sent template and requested NDA signature next.
+TKT-4531,1009,High,Sales,Calculated 15% accelerator for sales exceeding 120% of target.
+TKT-4532,1010,Low,IT,Confirmed three laptops received the triple-pass data wipe and asset logs updated.
+TKT-4533,1001,Medium,Marketing,Asked if aggregated usage stats are subject to deletion. Answered: retained indefinitely.
+TKT-4534,1002,Medium,Sales,Employee is 15 days late submitting receipts. Informed them of the 30-day delay.
+TKT-4535,1003,Low,HR,User asked which form to use. Directed to the 'Goal Alignment' form.
+TKT-4536,1004,Low,HR,Employee requested the stipend at 60 days. Explained the 90-day minimum.
+TKT-4537,1005,High,Security,Verified that MFA is enabled on all 20 production console accounts.
+TKT-4538,1006,Critical,Engineering,System down—logged as CRITICAL. RTO set to 1 hour. Logs attached.
+TKT-4539,1007,Medium,HR,Confirmed monthly accrual rate is 1.67 days for new hires.
+TKT-4540,1002,High,Finance,$250 hotel receipt submitted. Rejected and requested they adhere to $150 limit.

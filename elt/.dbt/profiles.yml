@@ -1,0 +1,7 @@
+elt:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: /app/database/mydb.duckdb
+      schema: dev

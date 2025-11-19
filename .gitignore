@@ -1,0 +1,12 @@
+.idea/
+
+elt/logs/
+elt/target/
+
+database/
+
+
+
+.ipynb_checkpoints/
+
+notebooks/.ipynb_checkpoints/

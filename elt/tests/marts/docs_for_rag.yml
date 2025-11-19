@@ -1,0 +1,31 @@
+version: 2
+
+models:
+  - name: docs_for_rag
+    description: "Semantic RAG-ready dataset joining policies with support tickets."
+
+    columns:
+      - name: doc_id
+        tests:
+          - not_null:
+              severity: warn
+          - relationships:
+              severity: warn
+              arguments:
+                column_name: doc_id
+                to: ref('stg_documents')
+                field: doc_id
+
+      - name: ticket_id
+        tests:
+          - relationships:
+              severity: warn
+              arguments:
+                column_name: ticket_id
+                to: ref('stg_tickets')
+                field: ticket_id
+
+      - name: rag_chunk
+        tests:
+          - not_null:
+              severity: warn

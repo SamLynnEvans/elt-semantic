@@ -1,0 +1,39 @@
+version: "3.9"
+
+services:
+  dbt:
+    build:
+      context: .
+      dockerfile: Dockerfile.dbt
+    container_name: dbt_dev
+    working_dir: /app
+    volumes:
+      - .:/app
+      - duckdb_data:/app/database
+    command: sleep infinity
+
+  jupyter:
+    build:
+      context: .
+      dockerfile: Dockerfile.jupyter
+    container_name: jupyter_dev
+    working_dir: /app
+    volumes:
+      - .:/app
+      - duckdb_data:/app/database
+    ports:
+      - "8888:8888"
+    environment:
+      - PYTHONUNBUFFERED=1
+      - ENV=dev
+    command: >
+      jupyter lab
+      --ip=0.0.0.0
+      --port=8888
+      --no-browser
+      --NotebookApp.token=""
+      --NotebookApp.allow_origin="*"
+      --allow-root
+
+volumes:
+  duckdb_data:
