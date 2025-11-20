@@ -6,7 +6,7 @@ This project implements a compact semantic RAG workflow using:
 - **DuckDB** as the local warehouse  
 - **Python + Gemini** for chunking + embeddings  
 - **Chroma** as the vector store  
-- **Jupyter** for vectorisation
+- **Jupyter** for running python code interactively
 
 Everything runs inside Docker for reproducibility.
 
@@ -40,7 +40,7 @@ Access the Jupyter notebook at http://localhost:8888
 
 ### 4. Run Vectorization
 
-In Jupyter, open vectorization.ipynb and select:\
+In Jupyter, open Vectorization.ipynb and select:\
 Kernel → Restart Kernel and Run All Cells
 
 
@@ -57,6 +57,6 @@ The notebook includes:
 - roll-ups comparing table counts vs vector counts,
 - and simple semantic search probes to confirm retrieval behaves intuitively.
 
-In a production setting this workflow would change substantially, and I look forward to dicussing on the call.
+In a production setting this workflow would change substantially, involving ci/cd, tests and mocks, and I look forward to dicussing on the call.
 
 But for this assignment, where the goal is to produce an MVP, validate the approach, and demonstrate a working semantic indexing pipeline, a Jupyter notebook strikes the right balance between clarity, flexibility, and speed.

@@ -6,6 +6,7 @@ profile: "elt"
 
 model-paths: ["models"]
 macro-paths: ["macros"]
+test-paths: ["tests"]
 
 models:
   elt:
