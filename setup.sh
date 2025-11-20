@@ -1,4 +1,4 @@
-export GEMINI_API_KEY="your-key"
+export GEMINI_API_KEY="<your-api-key>"
 export ENV='dev'
 
 docker-compose run --rm elt

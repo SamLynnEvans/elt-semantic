@@ -10,4 +10,4 @@ WORKDIR /app
 COPY elt /app
 COPY raw_data /app/raw_data
 
-CMD ["dbt", "run"]
+CMD ["dbt", "build", "--project-dir", "/app/elt", "--profiles-dir", "/app/elt/.dbt", "--target", "dev"]
