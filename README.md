@@ -18,7 +18,8 @@ Everything runs inside Docker for reproducibility.
 
 This project uses Docker to ensure a fully reproducible environment across machines.\
 To run the pipeline as delivered, you’ll need Docker installed.\
-If Docker is not available, I can provide a lightweight Python virtualenv version on request.
+If Docker is not available, I can provide a lightweight Python virtualenv version on request. \
+A Gemini API Key is Additionally required for embedding the rag chunks.
 
 
 ### Steps
