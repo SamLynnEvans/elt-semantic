@@ -40,8 +40,13 @@ Access the Jupyter notebook at http://localhost:8888
 
 ### 4. Run Vectorization
 
-In Jupyter, open Vectorization.ipynb and select:\
+In Jupyter, open notebooks/Vectorization.ipynb and select:\
 Kernel → Restart Kernel and Run All Cells
+
+
+### 5. Experiment
+
+Use the search function at the bottom of the notebook to experiment with semantic search on the dataset.
 
 
 ### Discussion: Why a Jupyter Notebook for Vectorisation?
